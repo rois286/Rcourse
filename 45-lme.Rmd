@@ -17,7 +17,7 @@ Consider a prospective study, i.e., data that originates from selecting a set of
 Also assume that some subjects received some treatment, and other did not. 
 When we want to infer on the population from which these subjects have been sampled, we need to recall that some series of observations came from the same subject. 
 If we were to ignore the subject of origin, and treat each observation as an independent sample point, we will think we have more information in our data than we actually do. 
-For a rough intuition, think of a case where observatiosn within subject are perfectly dependent. 
+For a rough intuition, think of a case where observations within subject are perfectly dependent. 
 ```
 
 The sources of variability, i.e. noise, are known in the statistical literature as "random effects". 
