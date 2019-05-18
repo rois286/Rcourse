@@ -84,7 +84,7 @@ Because we follow units over time, like in Example \@ref(exm:random-effects).
 Is the term typically used in econometric for such longitudinal data. 
 
 - __MANOVA__:
-Many of the problems that may be solved with a multivariate analysis of variance (MANOVA), may be solved with an LMM for reasons we detail in \@ref(multivariate).
+Many of the problems that may be solved with a multivariate analysis of variance (MANOVA), may be solved with an LMM for reasons we detail in chapter \@ref(multivariate).
 
 - __Structured Prediction__:
 In the machine learning literature, predicting outcomes with structure, such as correlated vectors, is known as Structured Learning. 
