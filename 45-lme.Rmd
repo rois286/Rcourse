@@ -38,7 +38,7 @@ We want to study the (fixed) effect of time: before versus after.
 Bottle caps are produced by several machines.
 Clearly there is variablity in the diameters within-machine and between-machines.
 Given many measurements on many bottle caps from many machines, we could standardize measurements by removing each machine's average.
-This implies the within-machine variability is the only source of variability we care about, because the substration of the machine effect, removed information on the between-machine variability.  
+This implies the within-machine variability is the only source of variability we care about, because the subtraction of the machine effect, removed information on the between-machine variability.  
 Alternatively, we could treat the between-machine variability as another source of noise/uncertainty when inferring on the temporal fixed effect. 
 ```
 
