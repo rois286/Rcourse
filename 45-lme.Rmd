@@ -109,7 +109,7 @@ Not all dependency models can be specified in this way.
 Dependency structures that are not hierarchical include temporal dependencies ([AR](https://en.wikipedia.org/wiki/Autoregressive_model), [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average), [ARCH](https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity) and GARCH), [spatial](https://en.wikipedia.org/wiki/Spatial_dependence), [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain), and more. 
 To specify dependency structures that are no hierarchical, see Chapter 8 in (the excellent) @weiss2005modeling.
 
-1. If you are using the model merely for predictions, and not for inference on the fixed effects or variance components, then stating the generative distribution may be be useful, but not necessarily. 
+1. If you are using the model merely for predictions, and not for inference on the fixed effects or variance components, then stating the generative distribution may be useful, but not necessarily. 
 See the Supervised Learning Chapter \@ref(supervised) for more on prediction problems.
 Also recall that machine learning from non-independent observations (such as LMMs) is a delicate matter that is rarely treated in the literature. 
 
