@@ -93,7 +93,7 @@ Because LMMs merely specify correlations, using a LMM for making predictions may
 
 Whether we are aiming to infer on a generative model's parameters, or to make predictions, there is no "right" nor "wrong" approach. Instead, there is always some implied measure of error, and an algorithm may be good, or bad, with respect to this measure (think of false and true positives, for instance).
 This is why we care about dependencies in the data: ignoring the dependence structure will probably yield inefficient algorithms.
-Put differently, if we ignore the statistical dependence in the data we will probably me making more errors than possible/optimal.
+Put differently, if we ignore the statistical dependence in the data we will probably be making more errors than possible/optimal.
 
 
 We now emphasize: 
