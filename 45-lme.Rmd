@@ -7,7 +7,7 @@ editor_options:
 
 ```{example, label='dependence', name="Dependent Samples on the Mean"}
 Consider inference on a population's mean.
-Supposdly, more observations imply more infotmation on the mean. This, however, is not the case if samples are completely dependant. More observations do not add any new information.
+Supposdly, more observations imply more information on the mean. This, however, is not the case if samples are completely dependant. More observations do not add any new information.
 From this example one may think that dependence is a bad thing. This is a false intuitiont: negative correlations imply oscilations about the mean, so they are actually more informative on the mean than independent observations. 
 ```
 
