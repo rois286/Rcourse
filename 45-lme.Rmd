@@ -14,7 +14,7 @@ From this example one may think that dependence is a bad thing. This is a false 
 
 ```{example, label='repeated-measures', name="Repeated Measures"}
 Consider a prospective study, i.e., data that originates from selecting a set of subjects and making measurements on them over time. 
-Also assume that some subjects received some treatment, and other did not. 
+Also assume that some subjects received some treatment, and others did not. 
 When we want to infer on the population from which these subjects have been sampled, we need to recall that some series of observations came from the same subject. 
 If we were to ignore the subject of origin, and treat each observation as an independent sample point, we will think we have more information in our data than we actually do. 
 For a rough intuition, think of a case where observations within subject are perfectly dependent. 
