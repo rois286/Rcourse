@@ -160,7 +160,7 @@ library(magrittr)
 n.groups <- 4 # number of groups
 n.repeats <- 2 # sample per group
 groups <- rep(1:n.groups, each=n.repeats) %>% as.factor
-lin <- length(groups)
+n <- length(groups)
 z0 <- rnorm(n.groups,0,10) # generate group effects
 (z <- z0[as.numeric(groups)]) # generate and inspect random group effects
 epsilon <- rnorm(n,0,1) # generate measurement error
