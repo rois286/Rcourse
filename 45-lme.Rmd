@@ -155,11 +155,12 @@ We will fit mixed models with the `lmer` function from the __lme4__ package, wri
 We start with a small simulation demonstrating the importance of acknowledging your sources of variability. Our demonstration consists of fitting a linear model that assumes independence, when data is clearly dependent. 
 
 ```{r}
+library(magrittr)
 # Simulation parameters
 n.groups <- 4 # number of groups
 n.repeats <- 2 # sample per group
 groups <- rep(1:n.groups, each=n.repeats) %>% as.factor
-n <- length(groups)
+lin <- length(groups)
 z0 <- rnorm(n.groups,0,10) # generate group effects
 (z <- z0[as.numeric(groups)]) # generate and inspect random group effects
 epsilon <- rnorm(n,0,1) # generate measurement error
