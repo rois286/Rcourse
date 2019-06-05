@@ -137,7 +137,7 @@ In the context of LMMs, however, ML is typically replaced with _restricted maxim
 
 ### Non-Linear Mixed Models
 The idea of random-effects can also be implemented for non-linear mean models. Formally, this means that $y|x,z=f(x,z,\varepsilon)$ for some non-linear $f$. 
-This is known as _non-linead-mixed-models_, which will not be discussed in this text. 
+This is known as _non-linear-mixed-models_, which will not be discussed in this text. 
 
 
 
