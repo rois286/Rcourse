@@ -370,7 +370,7 @@ lme.3 <- lmer ( Reaction ~ Days + ( Days | Subject ) , data= sleepstudy )
 Things to note:
 
 - `~Days` specifies the fixed effect. 
-- We used the `Days|Subect` syntax to tell R we want to fit the model `~Days` within each subject.
+- We used the `Days|Subject` syntax to tell R we want to fit the model `~Days` within each subject.
 - Were we fitting the model for purposes of prediction only, an (almost) equivalent `lm` formulation is `lm(Reaction~Days*Subject)`.
 
 
