@@ -471,7 +471,7 @@ detach(Penicillin)
 
 As previously stated, a hierarchical model is a very convenient way to state correlations. 
 The hierarchical sampling scheme will always yield correlations in blocks. 
-What is the correlation does not have a block structure? 
+What if the correlation does not have a block structure? 
 Like a smooth temporal decay for time-series, or a smooth spatial decay for geospatial data?
 
 One way to go about, is to find a dedicated package. 
